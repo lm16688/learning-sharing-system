@@ -1,0 +1,22 @@
+learning-sharing-system/
+├── .env.example                    # 环境变量模板
+├── .gitignore                     # Git忽略文件
+├── docker-compose.yml             # Docker容器编排
+├── README.md                      # 项目说明
+├── frontend/                      # 前端代码
+│   ├── package.json
+│   ├── Dockerfile
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   └── src/
+│       ├── App.jsx
+│       └── index.js
+├── backend/                       # 后端代码
+│   ├── package.json
+│   ├── Dockerfile
+│   └── server.js
+├── database/                      # 数据库脚本
+│   └── init.sql
+└── nginx/                         # Nginx配置
+    └── nginx.conf
